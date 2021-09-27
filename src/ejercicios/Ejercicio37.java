@@ -36,8 +36,7 @@ public class Ejercicio37 {
             for (cont = 1; cont < arrayListNumeros.size(); cont++) {
                 num1=Integer.sum(num1, arrayListNumeros.get(cont));
             }
-            System.out.println("Suma de todos los numeros: "+num1);
-
+            System.out.println("Suma de todos los numeros: "+num1);    
         }
         /*Vehiculos vehiculo1=arrayListNumeros.get(0);
         int precio=vehiculo1.getPrecio();
