@@ -9,7 +9,9 @@ package ejercicios3;
 public class Barco extends Vehiculo{
     
     public Barco(Colores color,int numSerie){
-    super(color,numSerie);
+        super(color,numSerie);
     }
-    
+    public String toString(){
+        return "Vehículo -> numSerie= "+getNumSerie()+", color= "+getColor().name()+" y es un BARCO";
+    }
 }

@@ -20,7 +20,7 @@ public class Coche extends Vehiculo{
         this.cilindrada=cilindrada;
     }
     public String toString(){
-        return "Vehiculo -> numSerie= "+getNumSerie()+", color= "+getColor().name()+", cilindrada= "+cilindrada;
+        return "Vehículo -> numSerie= "+getNumSerie()+", color= "+getColor().name()+", es un COCHE con cilindrada= "+cilindrada;
     }
     
 }

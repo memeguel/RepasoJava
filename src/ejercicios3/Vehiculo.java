@@ -8,7 +8,7 @@ import java.util.Scanner;
  * @author CFGS
  */
 enum Colores{ROJO,AZUL,VERDE};
-public class Vehiculo {
+public abstract class Vehiculo {
     private Colores color;
     private int numSerie;
     
@@ -41,8 +41,6 @@ public class Vehiculo {
         return numSerie;
     }
     
-    public String toString(){
-        return "color="+color.name()+", numSerie="+numSerie;
-    }
+    public abstract String toString();
     
 }
